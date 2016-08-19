@@ -15,7 +15,7 @@ def sendToBoard(jn):
 		GPIO.output(p,l)
 		#print(ord(l))
 		c=c+1	
-	time.sleep(0.05)
+	time.sleep(0.03)
 
 
 GPIO.setmode(GPIO.BCM)
